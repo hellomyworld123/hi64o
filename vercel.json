@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "public": true,
+  "static": {
+    "trailingSlash": false
+  },
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
